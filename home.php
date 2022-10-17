@@ -11,7 +11,7 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
-    <!-- comment nich -->
+    <!-- comment nich lagi-->
 
 </head>
 <body>
