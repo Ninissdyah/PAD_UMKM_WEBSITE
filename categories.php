@@ -32,9 +32,7 @@
 
     <section class="home">
         <div class="home">
-            
-
-            <div class="slide" style="background:url(https://images.unsplash.com/photo-1576562331281-d09e46af9854?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80)">
+            <div class="slide" style="background:url(https://images.unsplash.com/photo-1576562331281-d09e46af9854?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80); opacity: 60%;">
                 <div class="content">
                 <h3>Categories</h3>       
             </div> 
