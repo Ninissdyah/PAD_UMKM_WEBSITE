@@ -355,6 +355,72 @@ section {
     color: var(--light-black);
 }
 
+/* form upload, post, event */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 100vh;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: auto;
+  margin: 50px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.text-center{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.form{
+  padding: 70px 300px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type=file] {
+  width: 100%;
+  padding: 12px 18px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+select[name=kategori]{
+    width: 100%;
+    padding: 12px 18px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea[name=desc]{
+  width: 100%;
+  padding: 12px 18px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+p{
+  text-align: justify;
+  overflow: hidden;
+}
 
 /* FOOTER */
 .footer {
