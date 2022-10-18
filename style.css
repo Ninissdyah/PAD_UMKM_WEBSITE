@@ -30,7 +30,7 @@
 
 /* ukuran huruf pada title dan navbar */
 html {
-  font-size: 70%;
+  font-size: 50%;
   overflow-x: hidden;
 }
 
@@ -87,7 +87,7 @@ section {
 
 /* bagian" di navbar */
 .header .navbar a {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-left: 2rem;
   color: var(--black);
   font-style: bold;
@@ -111,6 +111,7 @@ section {
   padding: 0;
 }
 
+
 .home .slide {
   background: url();
   text-align: center;
@@ -129,7 +130,7 @@ section {
 
 .home .slide .content span {
   display: block;
-  font-size: 3rem;
+  font-size: 4rem;
   color: red;
   padding-bottom: 1rem;
   font-weight: bolder;
@@ -137,13 +138,13 @@ section {
 
 .home .slide .content h3 {
   display: block;
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--light-bg);
   padding-bottom: 1rem;
   font-weight: bolder;
   line-height: 1;
-  text-shadow: var(--text-shadow);
   padding: 3rem 0;
+  text-shadow: var(--black);
 }
 
 /* HOME-EVENT */
@@ -199,26 +200,29 @@ section {
 }
 
 /* HOME-KATEGORI */
-.home-kategori {
+/* .home-kategori {
   background: var(--main2-color);
-}
+} */
 
 .home-kategori .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   /* gap => memberikan jarak antar kolom yang telah dibagi */
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .home-kategori .box-container .box {
+  border-radius: 20px;
   border: var(--border);
   box-shadow: var(--box-shadow);
   background: var(--light-bg);
+  padding: 20px;
 }
 
 .home-kategori .box-container .box .image {
   height: 25rem;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .home-kategori .box-container .box .image img {
@@ -269,6 +273,7 @@ section {
   flex: 1 1 41rem;
   padding: 3rem;
   background: var(--light-bg);
+  margin: 3rem;
 }
 
 .home-about .content h3 {
@@ -355,6 +360,72 @@ section {
     color: var(--light-black);
 }
 
+/* form upload, post, event */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 100vh;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: auto;
+  margin: 50px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.text-center{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.form{
+  padding: 70px 300px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type=file] {
+  width: 100%;
+  padding: 12px 18px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+select[name=kategori]{
+    width: 100%;
+    padding: 12px 18px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea[name=desc]{
+  width: 100%;
+  padding: 12px 18px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+p{
+  text-align: justify;
+  overflow: hidden;
+}
 
 /* FOOTER */
 .footer {
