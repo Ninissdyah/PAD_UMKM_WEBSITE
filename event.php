@@ -24,8 +24,9 @@
           <nav class="navbar">
               <a href="home.php">Home</a>
               <a href="event.php">Event</a>
-              <a href="kategori.php">Categories</a>
+              <a href="categories.php">Categories</a>
               <a href="about.php">About Us</a>
+              <button id="btn-daftar" class="btn btn-danger navbar-btn">Sign In</button>
           </nav>
 
       <!-- menu bar di samping kanan atas -->
