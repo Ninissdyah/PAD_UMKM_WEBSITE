@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMKM WEBSITE - KELOMPOK 7</title>
+       <!-- swiper css link  -->
+       <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <!-- font dari cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- css link -->
@@ -27,18 +32,39 @@
     </section>
     <!-- header akhir -->
     <!-- bagian home awal -->
-    <section class="home">
-            <div class="home">
-                
-                <div class="slide">
+    <section class="home-banner-atas">
+        <div class="swiper home-banner-atas">
+            <div class="swipper-wrapper">   
+
+                <div class="swipper-silde slide" style="background:url(images/home-slide-1.jpg) no-repeat">
                     <div class="content">
-                            <span>500++</span>
-                            <h3>UMKM HAS JOINED WITH US</h3>
-                            <a href="home.php" class="btn">INI NGELINK</a>
+                        <span>500++</span>
+                        <h3>UMKM HAS JOINED WITH US</h3>
+                        <a href="home.php" class="btn">INI NGELINK</a>
                     </div>
                 </div> 
+            
+                <div class="swipper-silde slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+                    <div class="content">
+                        <span>500++</span>
+                        <h3>UMKM HAS JOINED WITH US</h3>
+                        <a href="home.php" class="btn">INI NGELINK</a>
+                    </div>
+                </div> 
+         
+                <div class="swipper-silde slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+                    <div class="content">
+                        <span>500++</span>
+                        <h3>UMKM HAS JOINED WITH US</h3>
+                        <a href="home.php" class="btn">INI NGELINK</a>
+                    </div>
+                </div>
             </div>
-        </section>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div> 
+            
+    </section>
         <!-- bagian home akhir -->
         <!-- event awal -->
         <section class="home-event">
@@ -144,8 +170,12 @@
        <div class="credit">created by <span>UMKMAja!</span> | All Rights Reserved. </div>
     </section>
     <!-- footer akhir -->
-    <!-- javascript link -->
-    <script src="script.js"></script>
+
+    <!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
     
 </body>
 </html>
