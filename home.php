@@ -32,39 +32,69 @@
     </section>
     <!-- header akhir -->
     <!-- bagian home awal -->
-    <section class="home-banner-atas">
-        <div class="swiper home-banner-atas">
-            <div class="swipper-wrapper">   
-
-                <div class="swipper-silde slide" style="background:url(images/home-slide-1.jpg) no-repeat">
-                    <div class="content">
-                        <span>500++</span>
-                        <h3>UMKM HAS JOINED WITH US</h3>
-                        <a href="home.php" class="btn">INI NGELINK</a>
-                    </div>
-                </div> 
-            
-                <div class="swipper-silde slide" style="background:url(images/home-slide-2.jpg) no-repeat">
-                    <div class="content">
-                        <span>500++</span>
-                        <h3>UMKM HAS JOINED WITH US</h3>
-                        <a href="home.php" class="btn">INI NGELINK</a>
-                    </div>
-                </div> 
-         
-                <div class="swipper-silde slide" style="background:url(images/home-slide-3.jpg) no-repeat">
-                    <div class="content">
-                        <span>500++</span>
-                        <h3>UMKM HAS JOINED WITH US</h3>
-                        <a href="home.php" class="btn">INI NGELINK</a>
-                    </div>
-                </div>
+    <div class="slides">
+      <div class="slide">
+        <img src="images/gambar-slide-1.jpg" alt="" height="1080" width="1920">
+            <div class="content">
+                <span>500++</span>
+                <h3>UMKM HAS JOINED WITH US</h3>
+                <a href="home.php" class="btn">INI NGELINK</a>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div> 
-            
-    </section>
+      </div>
+      <div class="slide">
+        <img src="images/gambar-slide-2.jpg" alt="" height="1080" width="1920">
+            <div class="content">
+                <span>500++</span>
+                <h3>UMKM HAS JOINED WITH US</h3>
+                <a href="home.php" class="btn">INI NGELINK</a>
+            </div>
+      </div>
+      <div class="slide">
+        <img src="images/gambar-slide-3.jpg" alt="" height="1080" width="1920">
+            <div class="content">
+                <span>500++</span>
+                <h3>UMKM HAS JOINED WITH US</h3>
+                <a href="home.php" class="btn">INI NGELINK</a>
+            </div>
+      </div>
+      <div class="slide">
+        <img src="images/gambar-slide-4.jpg" alt="" height="1080" width="1920">
+      </div>
+      <div class="slide">
+        <img src="images/gambar-slide-5.jpg" alt="" height="1080" width="1920">
+      </div>
+      <div class="navigation">
+        <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+        <a class = "next" onclick = "plusSlides(-1)">&#10095;</a>
+      </div>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        if (n > slides.length)
+        {
+          slideIndex = 1;
+        }
+        if (n < 1)
+        {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++)
+        {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex-1].style.display = "block";
+      }
+    </script>
         <!-- bagian home akhir -->
         <!-- event awal -->
         <section class="home-event">
