@@ -15,13 +15,13 @@ class EventsController extends Controller
      */
     public function index()
     {
-        $vendor = Vendor::all();
-        foreach ($vendor as $post) {
-           $vendorx[] = [
-              'email' => $post->email,   
-           ];
-        }; 
-        dd($vendorx);
+        // $vendor = Vendor::all();
+        // foreach ($vendor as $post) {
+        //    $vendorx[] = [
+        //       'email' => $post->email,   
+        //    ];
+        // }; 
+        // dd($vendorx);
 
         
         $data = array(

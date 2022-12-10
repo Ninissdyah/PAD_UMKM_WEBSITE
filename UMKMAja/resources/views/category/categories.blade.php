@@ -20,6 +20,7 @@
         @if(count($category)>0)
             @foreach($category as $category)
             <div class="box">
+                <a href="/{{$category->url}}">
                 <div class="image">
                     <img src="{{ asset ('storage/categories/'.$category->url.'.jpg') }}" alt="ini gambar">
                 </div>

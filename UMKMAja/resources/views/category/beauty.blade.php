@@ -16,7 +16,7 @@
 
     <!-- kategori awal -->
     <section class="home-kategori">
-
+        
         <div class="box-container" style="grid-template-columns: 30rem 30rem 30rem 30rem;">
         @foreach($dashboard as $dashboards)
         <div class="box">

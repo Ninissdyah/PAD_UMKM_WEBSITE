@@ -21,8 +21,8 @@
                         </a>            
                     </div>
                     <div>
-                        <a href="#">
-                            <img src="https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1231&q=80" alt="Image 4">
+                        <a href="/art">
+                            <img src="https://i1.wp.com/www.maxmanroe.com/vid/wp-content/uploads/2017/12/Pengertian-UMKM.png?fit=700%2C363&ssl=1" alt="Image 4">
                         </a>
                     </div>
                     <div>
@@ -83,19 +83,22 @@
             <div class="load-more"><a href="/event" class="btn">Read More</a></div>
         </section>
         <!-- event akhir -->
+
         <!-- kategori awal -->
         <section class="home-kategori">
             <h1 class="heading-title"> Categories </h1>
             <div class="box-container">
             <div class="box">
+                <a href="/food&drink">
                 <div class="image">
                     <img src="{{ asset ('storage/categories/food&drink.jpg') }}" alt="ini gambar" height="650" width="650">
                 </div>
                 <div class="content">
-                <a href="/food&drink"><h3>Food And Drink</h3></a>
+                    <a href="/food&drink"><h3>Food And Drink</h3></a>
                 </div>
             </div> 
             <div class="box">
+                <a href="/clothes">
                 <div class="image">
                     <img src="{{ asset ('storage/categories/clothes.jpg') }}" alt="ini gambar" height="650" width="650">
                 </div>
@@ -104,6 +107,7 @@
                 </div>
             </div> 
             <div class="box">
+                <a href="/beauty&health">
                 <div class="image">
                     <img src="{{ asset ('storage/categories/beauty&health.jpg') }}" alt="ini gambar" height="650" width="650">
                 </div>
@@ -115,10 +119,11 @@
             <div class="load-more"><a href="/category" class="btn">Read More</a></div>
         </section>
         <!-- kategori akhir -->
-            <!-- home about awal -->
+
+        <!-- home about awal -->
         <section class="home-about">
             <div class="image">
-                <img src="{{ asset('/storage/UMKMAja!.png')}}" alt="iniGambar" height="100" width="550">
+                <img src="{{ asset('/storage/UMKMAja!.png')}}" alt="iniGambar">
             </div>
             <div class="content">
                 <h3>About Us</h3>
@@ -126,7 +131,8 @@
                 <a href="/about" class="btn">Read More</a>
             </div>
         </section>
-        <!-- home about akhir -->
+    <!-- home about akhir -->
+
     <!-- bagian banner bawah awal -->
     <section class="home">
         <div class="home-banner-bawah">

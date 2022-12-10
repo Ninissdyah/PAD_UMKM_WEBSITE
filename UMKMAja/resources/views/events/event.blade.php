@@ -14,9 +14,9 @@
 @if(count($event)>0)
     @foreach($event as $events)
     <div class="containerx">
-      <div class="content1">
+      <!-- <div class="content1">
             <p> </p>
-        </div>
+        </div> -->
       <div class="content1">
             <div class="image-event">
             <a class="example-image-link" href="{{ asset ('storage/eventPoster/'.$events->imagePath) }}"

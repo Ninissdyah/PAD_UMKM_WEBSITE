@@ -38,7 +38,7 @@
                     <td>{{$pro->price}}</td>
                     <td>{{$pro->created_at}}</td>
                     <td style="text-align: center;">
-                    <button id="myBtn" class="btn bg-danger">Delete</button>
+                    <button id="myBtn" class="btn-delete bg-danger">Delete</button>
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
                             <!-- Modal content -->
