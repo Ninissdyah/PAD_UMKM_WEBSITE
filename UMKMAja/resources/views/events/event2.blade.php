@@ -4,16 +4,16 @@
 <!-- postingan event awal -->
 <section class="home">
   <div class="home">
-    <div class="slide" style="background:url(https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); opacity: 60%;">
+    <div class="slide" style="background:url(https://4.bp.blogspot.com/-4q1c3mCni98/VadIyHfJI6I/AAAAAAAAADI/NcJz8CYPFXY/s1600/seminar-conference.jpg);">
       <div class="content">
-        <h3>Event</h3>       
+        <h3 class="wow fadeIn">Event</h3>       
       </div> 
     </div>
   </div>
 
 @if(count($event)>0)
     @foreach($event as $events)
-    <div class="containerx">
+    <div class="containerx wow fadeInUp">
         <!-- <div class="content1">
             <p> </p>
         </div> -->

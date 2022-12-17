@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- about awal -->
-<section class="about">
+<section class="about wow fadeInUp" data-wow-delay="0.1s">
     <div class="image">
         <img src="{{ asset('/storage/UMKMAja!.png')}}" alt="iniGambar">
     </div>

@@ -2,7 +2,7 @@
 
 @section('content')
  <!-- form EVENT awal -->
- <section class="form">
+ <section class="form wow fadeInUp">
         <div>
         <h3 class="title-form"> Dashboard </h3>
         <form action="{{ route('dashboard.update', $dashboard->id) }}" method="POST" enctype ="multipart/form-data"> @method('PUT')

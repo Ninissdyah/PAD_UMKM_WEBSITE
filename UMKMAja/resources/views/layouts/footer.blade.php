@@ -1,5 +1,5 @@
 <!-- footer awal -->
-<section class="footer">
+<section class="footer wow fadeIn">
        <div class="box-container">
            <div class="box">
             <img src="{{ asset('/storage/UMKMAja!.png')}}" alt="iniGambar" height="50" width="275">
@@ -22,6 +22,6 @@
 
        </div> 
 
-       <div class="credit">created by <span>UMKMAja!</span> | All Rights Reserved. </div>
+       <div class="credit">&copy;2022 created by <span>UMKMAja!</span> | All Rights Reserved. </div>
     </section>
 <!-- footer akhir -->

@@ -3,25 +3,21 @@
 @section('content')
 <section class="home">
         <div class="home">
-            
-
             <div class="slide" style="background:url(https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);">
                 <div class="content">
-                <h3>Clothes</h3>       
+                <h3 class="wow fadeIn">Clothes</h3>       
             </div> 
         </div>
     </section>
-
     <!-- header akhir -->
 
     <!-- kategori awal -->
-    <section class="home-kategori">
-
+    <section class="home-kategori wow fadeInUp">
         <div class="box-container" style="grid-template-columns: 30rem 30rem 30rem 30rem;">
         @foreach($dashboard as $dashboards)
         <div class="box">
             <div class="image">
-                <img src="{{ asset ('storage/dashboard/'.$dashboards->imagePath) }}" alt="ini gambar">
+                <a href="/clothes/{{$dashboards->id}}"><img src="{{ asset ('storage/dashboard/'.$dashboards->imagePath) }}" alt="ini gambar"></a>
             </div>
             <div class="content">
                 <a href="/clothes/{{$dashboards->id}}"><h3>{{$dashboards->storeName}}</h3></a>

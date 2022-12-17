@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="store">
+<div class="store wow fadeInUp" >
     <h4>{{$dashboard->storeName}}</h4> 
     <div class="container-store">
         <div class="content1" style="grid-column: 1 / 2 span ;">
@@ -33,11 +33,13 @@
         </div>
     </div>
     
-    <h3 class="title-page"> Product </h3><hr>
-    <br>
-    <div class="box4">
-        <a href="/product/store/{{$dashboard->id}}" class="btn2" >Show</a>
-        <br><br><br>
+    <div class="wow fadeInUp">
+        <h3 class="title-page"> Product </h3><hr>
+        <br>
+        <div class="box4">
+            <a href="/product/store/{{$dashboard->id}}" class="btn2" >Show</a>
+            <br><br><br>
+        </div>
     </div>
 
 </div>

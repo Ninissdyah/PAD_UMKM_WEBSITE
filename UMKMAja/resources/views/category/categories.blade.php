@@ -5,18 +5,16 @@
         <div class="home">
             <div class="slide" style="background:url(https://images.unsplash.com/photo-1576562331281-d09e46af9854?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80)">
                 <div class="content">
-                <h3>Categories</h3>   
+                <h3 class="wow fadeIn">Categories</h3>   
             </div> 
         </div>
     </section>
-
     <!-- header akhir -->
 
     <!-- kategori awal -->
     <section class="home-kategori">
-        <h1 class="heading-title"> Categories </h1>
-        
-        <div class="box-container">
+        <h1 class="heading-title wow fadeInUp"> Categories </h1>
+        <div class="box-container wow fadeInUp">
         @if(count($category)>0)
             @foreach($category as $category)
             <div class="box">
