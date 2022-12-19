@@ -3,7 +3,7 @@
 @section('content')
 <!-- bagian home awal -->
 <section class="home">
-            <div class="home">
+            <div class="home" style="padding:0rem">
             <div class="containerz">
                 <div class="slider">
                     <div>
@@ -127,7 +127,7 @@
             </div>
             <div class="content">
                 <h3>About Us</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi pariatur eum itaque sunt esse, quis magnam necessitatibus doloribus rem ipsum odio! Quo a vitae omnis totam. Fugit iusto sequi suscipit dicta repellendus, iure deserunt quaerat, sapiente commodi ea nam quas!</p>
+                <p>UMKMAja! is a website to provide services to connecting between seller and buyer in order to make seller’s contact integrated on this website and helps sellers and buyers communication and transaction become easier. </p>
                 <a href="/about" class="btn">Read More</a>
             </div>
         </section>
@@ -148,7 +148,7 @@
                                 <span class="close">&times;</span>
                                 <h1>Do you want to create an account for your shop?</h1><br>
                                 <p>If you're only using the website to view information, you don't need to create an account.<p><br></br>
-                                <a href="{{ url('store/register') }}"><button class="btn-daftar">Sign In</button></a>
+                                <a href="{{ url('store/register') }}"><button class="btn-daftar">Sign Up</button></a>
                             </div>
                         </div>
                 </div>

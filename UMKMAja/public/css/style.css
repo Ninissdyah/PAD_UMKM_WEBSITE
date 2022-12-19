@@ -160,14 +160,14 @@ section {
 /* Dialog */
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
+  display: none ; /* Hidden by default */
+  position: fixed !important; /* Stay in place */
+  z-index: 1 !important; /* Sit on top */
+  padding-top: 100px !important; /* Location of the box */
+  left: 0 !important;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 100% !important; /* Full width */
+  height: 100% !important; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -175,6 +175,7 @@ section {
 
 /* Modal Content */
 .modal-content {
+  position: none !important;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -260,6 +261,10 @@ section {
 
 /* Slider */
 
+.slick-slide{
+  padding: 6rem 15rem !important;
+}
+
 .slider .slick-slide img {
   width: 100%;
   height: 400px;
@@ -313,7 +318,7 @@ section {
 
 /* banner home bawah */
 .home {
-  padding: 0;
+  padding:6rem;
 }
 
 .home-banner-bawah .slide {
@@ -369,6 +374,8 @@ section {
   box-shadow: var(--box-shadow);
   justify-content: center;
   align-items: center;
+  height: 50rem;
+  width: 30rem;
 }
 
 .home-event .box-container .box:hover {
@@ -376,14 +383,14 @@ section {
 }
 
 .home-event .box-container .box .image {
-  height: 25rem;
+  height: 49rem;
   overflow: hidden;
 }
 
 .home-event .box-container .box .image img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: 0.3s linear;
 }
 
@@ -406,7 +413,7 @@ section {
 
 .home-event .load-more {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 /* HOME-KATEGORI */
@@ -468,7 +475,7 @@ section {
 
 .home-kategori .load-more {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 /* home about */
@@ -508,7 +515,7 @@ section {
 
 /* banner home bawah */
 .home {
-  padding: 0;
+  padding: 6rem;
 }
 
 .home-about-us .slide {
@@ -1082,7 +1089,7 @@ p {
 .title-dashboard h3{
   font-size: 2rem;
   font-weight: 700;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .alertx{
@@ -1107,11 +1114,11 @@ p {
 .table th{
   text-align: center;
   padding: 2rem;
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 
 .table td{
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 
 hr{
@@ -1285,7 +1292,7 @@ hr{
 
   /* home */
   .home-event .box-container {
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
 
   .home-kategori .box-container {
@@ -1424,6 +1431,10 @@ hr{
   /* form upload edit */
   .form{
     padding: 70px 150px;
+  }
+
+  .home-event .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
 
   .home-kategori .box-container {

@@ -51,20 +51,11 @@
                         <td>{{$events->contact}}</td>
                         <td>{{$events->created_at}}</td>
                         <td style="text-align: center;">
-                        <button id="myBtn" class="btn-delete bg-danger">Delete</button>
-                        <!-- The Modal -->
-                        <div id="myModal" class="modal">
-                                <!-- Modal content -->
-                                <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    <h1>Are You Sure You Want To Remove This Event?</h1>
-                                    <form action= "{{ route('admin.destroy', $events->id)}}" method="POST">@method('DELETE')
+                                <form action= "{{ route('admin.destroy', $events->id)}}" method="POST">@method('DELETE')
                                     {{ csrf_field() }}
                                         <input type="hidden" name="id" value="{{$events->id }}"> <br></br>
-                                        <button type="submit" class="btn bg-danger" style="margin-bottom:5rem;">Delete</button>
+                                        <button type="submit" class="btn bg-danger" onclick="return confirm('Are You Sure You Want To Remove This Event?');" style="margin-bottom:5rem;">Delete</button>
                                     </form>
-                                </div>
-                        </div>
                         </td>
                     </tr>
                     @endforeach

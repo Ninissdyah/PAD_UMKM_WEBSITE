@@ -13,7 +13,7 @@
 
     <!-- kategori awal -->
     <section class="home-kategori wow fadeInUp">
-        <div class="box-container" style="grid-template-columns: 30rem 30rem 30rem 30rem;">
+        <div class="box-container">
         @foreach($dashboard as $dashboards)
         <div class="box">
             <div class="image">

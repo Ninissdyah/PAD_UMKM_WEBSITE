@@ -20,7 +20,7 @@
                         <p class="desc" style="margin: 1rem;"> 
                             @if(strlen($products->captions) > 50){{substr($products->captions,0,50)}}
                             <span class="btn read-more-show hide_content">Readmore</span>
-                            <span class="read-more-content"> {{substr($products->captions,50,strlen($products->captions))}} 
+                            <span class="read-more-content">{{substr($products->captions,50,strlen($products->captions))}} 
                             <span class="btn read-more-hide hide_content">Readless</span> </span>
                             @else
                                 {{$products->captions}}
@@ -32,7 +32,7 @@
         </div>
         @endforeach
     @else
-        <div class="title-dashboard" style="margin:5rem;">
+        <div class="title-dashboard">
             <div class="alert alert-success alert-block">
                 <h3>Produk tidak tersedia</h3>
             </div>

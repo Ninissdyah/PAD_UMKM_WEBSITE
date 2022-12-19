@@ -73,7 +73,7 @@ class CategoriesController extends Controller
     {
         $dashboard = Dashboard::find($id)->toArray();
         $vendorId = $dashboard['vendorId'];
-        $product = Product::where('vendorId', $vendorId)->paginate(12);
+        $product = Product::where('vendorId', $vendorId)->paginate(6);
         return view('category.store.productDetail', compact('product'));
     }
     /**

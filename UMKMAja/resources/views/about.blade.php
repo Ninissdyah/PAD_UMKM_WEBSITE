@@ -8,8 +8,8 @@
     </div>
     <div class="content">
         <h3>Why Should Us?</h3><br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, nisi voluptate tempora qui inventore recusandae voluptates! Minima ut nobis deleniti nostrum nulla accusantium tempore culpa dolorum quos laborum maxime molestias sapiente soluta enim ab, ducimus suscipit recusandae, in odio vero quis ad. Doloremque laudantium alias quas pariatur id explicabo tempora labore omnis voluptatum provident molestiae, quidem, excepturi deleniti voluptas maiores.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quaerat, rem repellendus, esse qui placeat molestias excepturi odio ullam, quidem eveniet accusantium non dolore minima doloremque expedita saepe temporibus aliquam nihil earum velit voluptates. Voluptatibus nihil explicabo quibusdam beatae iste sunt expedita odit maxime atque sit. Quibusdam officiis sequi nesciunt.</p>
+        <p>UMKMAja! is a website to provide services to connecting between seller and buyer in order to make seller’s contact integrated on this website and helps sellers and buyers communication and transaction become easier. </p>
+        <p>UMKMAja! fasilitating small and medium enterpreneur to envolve their business and skill through workshop event and bazaar event.</p>
     </div>
 </section>
 <!-- about akhir -->
